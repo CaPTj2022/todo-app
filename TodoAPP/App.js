@@ -23,7 +23,7 @@ const completeTask = (index) => {
     <View style={styles.container}>
 
       <View style={styles.tasksWrapper}>
-       <Text style={styles.secionTitle}>"Alger" Today's Task</Text>
+       <Text style={styles.secionTitle}>"Alger" Today's Tasks</Text>
 
        {
         taskItems.map((item, index) => {
